@@ -1,0 +1,18 @@
+{
+  "name": "apps-hibridas",
+  "version": "1.0.0",
+  "description": "Primer parcial de la materia Apps Híbridas",
+  "type": "module",
+  "scripts": {
+    "server": "nodemon --ignore data/ app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "4.18.2",
+    "mongodb": "^5.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "2.0.22"
+  }
+}
